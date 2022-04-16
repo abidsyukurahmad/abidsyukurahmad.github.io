@@ -321,7 +321,12 @@ form input, form textarea{
     transition: .3s ease-in;
     position: relative;
     z-index: none;
-    color: white;
+    color: var(--gray);
+    background:none;
+    border: 1px solid var(--gray);
+}
+form input::placeholder, form textarea::placeholder{
+    color: gray;
 }
 /* form input:focus, form textarea:focus{
     border-bottom:0 ;
