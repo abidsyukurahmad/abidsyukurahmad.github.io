@@ -321,6 +321,7 @@ form input, form textarea{
     transition: .3s ease-in;
     position: relative;
     z-index: none;
+    color: white;
 }
 /* form input:focus, form textarea:focus{
     border-bottom:0 ;
